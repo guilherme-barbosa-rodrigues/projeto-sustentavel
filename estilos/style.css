@@ -18,9 +18,8 @@ body, html {
     height: 100vh;
     width: 100%;
     background-image: url(../imagens/pexels-mahima-1250260.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: left left;
-    position: relative;
 }
 header {
     background-color: var(--cor04);
@@ -35,14 +34,14 @@ header > h1 {
 header > nav {
     background-color: var(--cor05);
     padding: 10px;
-    text-align: center;
+
 }
 header > nav > a {
     text-decoration: none;
     color: var(--cor01);
     padding-left: 10px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
-    margin-left: 20px;
+    margin-left: 15px;
 
 }
 main {
