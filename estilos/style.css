@@ -8,6 +8,7 @@
     --cor03: #667D47;
     --cor04: #48582B;
     --cor05: #2B2C1A;
+    --corH: #242516;
 }
 * {
     margin: 0px;
@@ -33,17 +34,17 @@ header > h1 {
 }
 header > nav {
     background-color: var(--cor05);
-
     border-radius: 0px 0px 10px 10px;
-
+    display: none;
 }
 i#burger {
-    background-color: var(--cor05);
+    background-color: var(--corH);
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
     text-align: center;
     color: var(--cor01);
     display: block;
+    cursor: pointer;
 }
 i#burger:hover {
     background-color: var(--cor02);
@@ -53,7 +54,7 @@ i#burger:hover {
 header > nav > ul > li > a {
     text-decoration: none;
     color: var(--cor01);
-    padding: 15px;
+    padding: 10px;
     text-shadow: .5px .5px 2px rgba(0, 0, 0, 0.281);
     display: block;
     text-align: center;

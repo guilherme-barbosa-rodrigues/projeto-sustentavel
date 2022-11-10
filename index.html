@@ -13,7 +13,7 @@
     <header>
         <h1>Projeto de Atividades Práticas de Extensão</h1>
         <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
-        <nav>
+        <nav id="itens">
             <ul>
                <li> <a href="#">Home</a>
                <li> <a href="#">Missão</a>
@@ -39,5 +39,15 @@
         <section id="fotos">
         </section>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == "block") {
+                itens.style.display = "none"
+        } else {
+            itens.style.display = "block"
+        }
+
+        }
+    </script>
 </body>
 </html>
