@@ -3,7 +3,6 @@
 @media screen and (min-width: 769px) {
     i#burger {
         display: block;
-        margin-bottom: 20px;
     }
     header > nav {
         margin-bottom: 20px;
@@ -13,7 +12,7 @@
     }
     main {
         width: 850px;
-        margin: auto;
+        margin: 10px auto auto auto;
         padding-bottom: 20px;
     }
     #foto {
