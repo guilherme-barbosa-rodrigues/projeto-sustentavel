@@ -85,7 +85,7 @@ p {
 }
 #foto_mapa > h2 {
     text-align: center;
-    margin: 10px 10px 30px 10px;
+    margin: 30px 10px 30px 10px;
     color: var(--cor05);
     text-shadow: .5px .5px 1px rgba(0, 0, 0, 0.199);
 }
