@@ -21,6 +21,7 @@ body, html {
     background-image: url(../imagens/pexels-mahima-1250260.jpg);
     background-size: cover;
     background-position: left left;
+    background-attachment: fixed;
 }
 header {
     background-color: var(--cor04);
